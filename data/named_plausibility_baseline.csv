@@ -1,0 +1,204 @@
+platform,simulator,dataset_variant,summary,score
+Visium,SRTsim-rb-tissue,Spapros,Balanced Realism,0.9699164526378011
+Visium,SRTsim-rb-tissue,Spapros,Spatial Tissue Fidelity,0.9674536453440755
+Visium,SRTsim-rb-tissue,Spapros,Novelty-Gated Plausibility,0.0004091122667137736
+Visium,SRTsim-rb-tissue,Spapros,Conservative Minimum Plausibility,0.9175158071689815
+Visium,SRTsim-rb-tissue,Spapros,coverage_Q,1.0
+Visium,SRTsim-rb-tissue,Spapros,novelty_gate,0.0004218015537329478
+Visium,SRTsim-rb-tissue,Spapros,copy_similarity,0.9999789099223133
+MERFISH,scCube-rfb,SpatialDE,Balanced Realism,0.8490818559482994
+MERFISH,scCube-rfb,SpatialDE,Spatial Tissue Fidelity,0.9186411135820176
+MERFISH,scCube-rfb,SpatialDE,Novelty-Gated Plausibility,0.8490818559482994
+MERFISH,scCube-rfb,SpatialDE,Conservative Minimum Plausibility,0.6404040830471451
+MERFISH,scCube-rfb,SpatialDE,coverage_Q,1.0
+MERFISH,scCube-rfb,SpatialDE,novelty_gate,1.0
+MERFISH,scCube-rfb,SpatialDE,copy_similarity,0.7773507141305905
+MERFISH,scDesign3-rb,SpatialDE,Balanced Realism,0.9409636948436171
+MERFISH,scDesign3-rb,SpatialDE,Spatial Tissue Fidelity,0.9395965339939195
+MERFISH,scDesign3-rb,SpatialDE,Novelty-Gated Plausibility,0.8102788529620971
+MERFISH,scDesign3-rb,SpatialDE,Conservative Minimum Plausibility,0.8189605702161846
+MERFISH,scDesign3-rb,SpatialDE,coverage_Q,1.0
+MERFISH,scDesign3-rb,SpatialDE,novelty_gate,0.8611159573980811
+MERFISH,scDesign3-rb,SpatialDE,copy_similarity,0.9569442021300959
+Visium,SRTsim-rb-domain,Spapros,Balanced Realism,0.9734856500361938
+Visium,SRTsim-rb-domain,Spapros,Spatial Tissue Fidelity,0.9704495379778967
+Visium,SRTsim-rb-domain,Spapros,Novelty-Gated Plausibility,0.00019872944634162558
+Visium,SRTsim-rb-domain,Spapros,Conservative Minimum Plausibility,0.9177973352828575
+Visium,SRTsim-rb-domain,Spapros,coverage_Q,1.0
+Visium,SRTsim-rb-domain,Spapros,novelty_gate,0.0002041421425515999
+Visium,SRTsim-rb-domain,Spapros,copy_similarity,0.9999897928928724
+Visium,SRTsim-rb-domain,SpatialDE,Balanced Realism,0.9916075386732857
+Visium,SRTsim-rb-domain,SpatialDE,Spatial Tissue Fidelity,0.9928545784660506
+Visium,SRTsim-rb-domain,SpatialDE,Novelty-Gated Plausibility,0.0006190500140322067
+Visium,SRTsim-rb-domain,SpatialDE,Conservative Minimum Plausibility,0.9858181205703294
+Visium,SRTsim-rb-domain,SpatialDE,coverage_Q,1.0
+Visium,SRTsim-rb-domain,SpatialDE,novelty_gate,0.0006242893381593895
+Visium,SRTsim-rb-domain,SpatialDE,copy_similarity,0.999968785533092
+Visium,SpatialcoGCN-rb,SpatialDE,Balanced Realism,0.40057756044281345
+Visium,SpatialcoGCN-rb,SpatialDE,Spatial Tissue Fidelity,0.4911867472570846
+Visium,SpatialcoGCN-rb,SpatialDE,Novelty-Gated Plausibility,0.40057756044281345
+Visium,SpatialcoGCN-rb,SpatialDE,Conservative Minimum Plausibility,0.12874999999999992
+Visium,SpatialcoGCN-rb,SpatialDE,coverage_Q,1.0
+Visium,SpatialcoGCN-rb,SpatialDE,novelty_gate,1.0
+Visium,SpatialcoGCN-rb,SpatialDE,copy_similarity,0.7208271496754248
+MERFISH,SRTsim-rb-domain,SpatialDE,Balanced Realism,0.9756298440370375
+MERFISH,SRTsim-rb-domain,SpatialDE,Spatial Tissue Fidelity,0.9827724073974359
+MERFISH,SRTsim-rb-domain,SpatialDE,Novelty-Gated Plausibility,0.006960815046172439
+MERFISH,SRTsim-rb-domain,SpatialDE,Conservative Minimum Plausibility,0.9484855382925061
+MERFISH,SRTsim-rb-domain,SpatialDE,coverage_Q,1.0
+MERFISH,SRTsim-rb-domain,SpatialDE,novelty_gate,0.007134688518105836
+MERFISH,SRTsim-rb-domain,SpatialDE,copy_similarity,0.9996432655740947
+Visium,SRTsim-rf-tissue,SpatialDE,Balanced Realism,0.9498699451551729
+Visium,SRTsim-rf-tissue,SpatialDE,Spatial Tissue Fidelity,0.9429076293846474
+Visium,SRTsim-rf-tissue,SpatialDE,Novelty-Gated Plausibility,0.0011154301197067364
+Visium,SRTsim-rf-tissue,SpatialDE,Conservative Minimum Plausibility,0.9072413479817438
+Visium,SRTsim-rf-tissue,SpatialDE,coverage_Q,1.0
+Visium,SRTsim-rf-tissue,SpatialDE,novelty_gate,0.001174297729279683
+Visium,SRTsim-rf-tissue,SpatialDE,copy_similarity,0.999941285113536
+Visium,SRTsim-rf-tissue,Spapros,Balanced Realism,0.9026523452936988
+Visium,SRTsim-rf-tissue,Spapros,Spatial Tissue Fidelity,0.8793221666459002
+Visium,SRTsim-rf-tissue,Spapros,Novelty-Gated Plausibility,0.00014894773041371323
+Visium,SRTsim-rf-tissue,Spapros,Conservative Minimum Plausibility,0.7981252968052166
+Visium,SRTsim-rf-tissue,Spapros,coverage_Q,1.0
+Visium,SRTsim-rf-tissue,Spapros,novelty_gate,0.00016501118197975728
+Visium,SRTsim-rf-tissue,Spapros,copy_similarity,0.999991749440901
+MERFISH,SRTsim-rb-tissue,SpatialDE,Balanced Realism,0.9859846876665576
+MERFISH,SRTsim-rb-tissue,SpatialDE,Spatial Tissue Fidelity,0.991724466257547
+MERFISH,SRTsim-rb-tissue,SpatialDE,Novelty-Gated Plausibility,0.012694765625060602
+MERFISH,SRTsim-rb-tissue,SpatialDE,Conservative Minimum Plausibility,0.9687653518935896
+MERFISH,SRTsim-rb-tissue,SpatialDE,coverage_Q,1.0
+MERFISH,SRTsim-rb-tissue,SpatialDE,novelty_gate,0.0128752157957992
+MERFISH,SRTsim-rb-tissue,SpatialDE,copy_similarity,0.99935623921021
+Visium,SRTsim-rf-domain,SpatialDE,Balanced Realism,0.9363602968985867
+Visium,SRTsim-rf-domain,SpatialDE,Spatial Tissue Fidelity,0.9267324002525292
+Visium,SRTsim-rf-domain,SpatialDE,Novelty-Gated Plausibility,0.00112007519329784
+Visium,SRTsim-rf-domain,SpatialDE,Conservative Minimum Plausibility,0.9140519392986841
+Visium,SRTsim-rf-domain,SpatialDE,coverage_Q,1.0
+Visium,SRTsim-rf-domain,SpatialDE,novelty_gate,0.0011962010745305562
+Visium,SRTsim-rf-domain,SpatialDE,copy_similarity,0.9999401899462734
+MERFISH,SRTsim-rf-domain,SpatialDE,Balanced Realism,0.9121074759989374
+MERFISH,SRTsim-rf-domain,SpatialDE,Spatial Tissue Fidelity,0.8993541047728758
+MERFISH,SRTsim-rf-domain,SpatialDE,Novelty-Gated Plausibility,0.14907415318252545
+MERFISH,SRTsim-rf-domain,SpatialDE,Conservative Minimum Plausibility,0.872516050918591
+MERFISH,SRTsim-rf-domain,SpatialDE,coverage_Q,1.0
+MERFISH,SRTsim-rf-domain,SpatialDE,novelty_gate,0.16343924055579073
+MERFISH,SRTsim-rf-domain,SpatialDE,copy_similarity,0.9918280379722104
+MERFISH,SRTsim-rf-tissue,SpatialDE,Balanced Realism,0.9064120931223143
+MERFISH,SRTsim-rf-tissue,SpatialDE,Spatial Tissue Fidelity,0.8907142316929035
+MERFISH,SRTsim-rf-tissue,SpatialDE,Novelty-Gated Plausibility,0.009141165606613632
+MERFISH,SRTsim-rf-tissue,SpatialDE,Conservative Minimum Plausibility,0.8439272581856616
+MERFISH,SRTsim-rf-tissue,SpatialDE,coverage_Q,1.0
+MERFISH,SRTsim-rf-tissue,SpatialDE,novelty_gate,0.010084999611076562
+MERFISH,SRTsim-rf-tissue,SpatialDE,copy_similarity,0.9994957500194461
+Visium,SpatialcoGCN-rb,Spapros,Balanced Realism,0.407007078760692
+Visium,SpatialcoGCN-rb,Spapros,Spatial Tissue Fidelity,0.49488520387689805
+Visium,SpatialcoGCN-rb,Spapros,Novelty-Gated Plausibility,0.407007078760692
+Visium,SpatialcoGCN-rb,Spapros,Conservative Minimum Plausibility,0.14337270341207353
+Visium,SpatialcoGCN-rb,Spapros,coverage_Q,1.0
+Visium,SpatialcoGCN-rb,Spapros,novelty_gate,1.0
+Visium,SpatialcoGCN-rb,Spapros,copy_similarity,0.1421666959030762
+Xenium,scCube-rb,Xenium,Balanced Realism,0.7702302008439341
+Xenium,scCube-rb,Xenium,Spatial Tissue Fidelity,0.8727909205512665
+Xenium,scCube-rb,Xenium,Novelty-Gated Plausibility,0.7702302008439341
+Xenium,scCube-rb,Xenium,Conservative Minimum Plausibility,0.4625480417219372
+Xenium,scCube-rb,Xenium,coverage_Q,1.0
+Xenium,scCube-rb,Xenium,novelty_gate,1.0
+Xenium,scCube-rb,Xenium,copy_similarity,0.8656675568709084
+Visium,scCube-rfb,Spapros,Balanced Realism,0.6602324112311595
+Visium,scCube-rfb,Spapros,Spatial Tissue Fidelity,0.6982095415054915
+Visium,scCube-rfb,Spapros,Novelty-Gated Plausibility,0.6602324112311595
+Visium,scCube-rfb,Spapros,Conservative Minimum Plausibility,0.3939596717322119
+Visium,scCube-rfb,Spapros,coverage_Q,1.0
+Visium,scCube-rfb,Spapros,novelty_gate,1.0
+Visium,scCube-rfb,Spapros,copy_similarity,0.3418635379490567
+Xenium,scDesign3-rb,Xenium,Balanced Realism,0.9403064891650559
+Xenium,scDesign3-rb,Xenium,Spatial Tissue Fidelity,0.9312813424363043
+Xenium,scDesign3-rb,Xenium,Novelty-Gated Plausibility,0.0005153429667561887
+Xenium,scDesign3-rb,Xenium,Conservative Minimum Plausibility,0.7938440373083546
+Xenium,scDesign3-rb,Xenium,coverage_Q,1.0
+Xenium,scDesign3-rb,Xenium,novelty_gate,0.0005480585029395968
+Xenium,scDesign3-rb,Xenium,copy_similarity,0.999972597074853
+Xenium,SRTsim-rb-tissue,Xenium,Balanced Realism,0.9937538639660785
+Xenium,SRTsim-rb-tissue,Xenium,Spatial Tissue Fidelity,0.9965743925201486
+Xenium,SRTsim-rb-tissue,Xenium,Novelty-Gated Plausibility,0.00022034432732695363
+Xenium,SRTsim-rb-tissue,Xenium,Conservative Minimum Plausibility,0.9852922783038683
+Xenium,SRTsim-rb-tissue,Xenium,coverage_Q,1.0
+Xenium,SRTsim-rb-tissue,Xenium,novelty_gate,0.00022172927856356495
+Xenium,SRTsim-rb-tissue,Xenium,copy_similarity,0.9999889135360718
+Visium,SRTsim-rf-domain,Spapros,Balanced Realism,0.8733338732095026
+Visium,SRTsim-rf-domain,Spapros,Spatial Tissue Fidelity,0.8390966711949505
+Visium,SRTsim-rf-domain,Spapros,Novelty-Gated Plausibility,0.00014186609761246129
+Visium,SRTsim-rf-domain,Spapros,Conservative Minimum Plausibility,0.7461420310806045
+Visium,SRTsim-rf-domain,Spapros,coverage_Q,1.0
+Visium,SRTsim-rf-domain,Spapros,novelty_gate,0.00016244199608461685
+Visium,SRTsim-rf-domain,Spapros,copy_similarity,0.9999918779001957
+Visium,scCube-rfb,SpatialDE,Balanced Realism,0.8405169240106912
+Visium,scCube-rfb,SpatialDE,Spatial Tissue Fidelity,0.9128110239128325
+Visium,scCube-rfb,SpatialDE,Novelty-Gated Plausibility,0.8405169240106912
+Visium,scCube-rfb,SpatialDE,Conservative Minimum Plausibility,0.6236346243042672
+Visium,scCube-rfb,SpatialDE,coverage_Q,1.0
+Visium,scCube-rfb,SpatialDE,novelty_gate,1.0
+Visium,scCube-rfb,SpatialDE,copy_similarity,0.2791861565390327
+MERFISH,SRTsim-rf-domain,Spapros,Balanced Realism,0.9045504549126228
+MERFISH,SRTsim-rf-domain,Spapros,Spatial Tissue Fidelity,0.9003970449815557
+MERFISH,SRTsim-rf-domain,Spapros,Novelty-Gated Plausibility,0.18334015791180228
+MERFISH,SRTsim-rf-domain,Spapros,Conservative Minimum Plausibility,0.8730841888102885
+MERFISH,SRTsim-rf-domain,Spapros,coverage_Q,1.0
+MERFISH,SRTsim-rf-domain,Spapros,novelty_gate,0.20268649130192795
+MERFISH,SRTsim-rf-domain,Spapros,copy_similarity,0.9898656754349036
+MERFISH,SRTsim-rb-domain,Spapros,Balanced Realism,0.9807746337587702
+MERFISH,SRTsim-rb-domain,Spapros,Spatial Tissue Fidelity,0.9855149991134168
+MERFISH,SRTsim-rb-domain,Spapros,Novelty-Gated Plausibility,0.007799657170911738
+MERFISH,SRTsim-rb-domain,Spapros,Conservative Minimum Plausibility,0.9568926559771479
+MERFISH,SRTsim-rb-domain,Spapros,coverage_Q,1.0
+MERFISH,SRTsim-rb-domain,Spapros,novelty_gate,0.007952547815210043
+MERFISH,SRTsim-rb-domain,Spapros,copy_similarity,0.9996023726092395
+MERFISH,scCube-rfb,Spapros,Balanced Realism,0.8701311138302827
+MERFISH,scCube-rfb,Spapros,Spatial Tissue Fidelity,0.9433906894751402
+MERFISH,scCube-rfb,Spapros,Novelty-Gated Plausibility,0.8701311138302827
+MERFISH,scCube-rfb,Spapros,Conservative Minimum Plausibility,0.6503523868957101
+MERFISH,scCube-rfb,Spapros,coverage_Q,1.0
+MERFISH,scCube-rfb,Spapros,novelty_gate,1.0
+MERFISH,scCube-rfb,Spapros,copy_similarity,0.7804525548574578
+Visium,SRTsim-rb-tissue,SpatialDE,Balanced Realism,0.9931483040496099
+Visium,SRTsim-rb-tissue,SpatialDE,Spatial Tissue Fidelity,0.9950455665002839
+Visium,SRTsim-rb-tissue,SpatialDE,Novelty-Gated Plausibility,0.0014706440166513208
+Visium,SRTsim-rb-tissue,SpatialDE,Conservative Minimum Plausibility,0.9864791765200374
+Visium,SRTsim-rb-tissue,SpatialDE,coverage_Q,1.0
+Visium,SRTsim-rb-tissue,SpatialDE,novelty_gate,0.0014807899390802959
+Visium,SRTsim-rb-tissue,SpatialDE,copy_similarity,0.9999259605030459
+MERFISH,scDesign3-rb,Spapros,Balanced Realism,0.9324390598476384
+MERFISH,scDesign3-rb,Spapros,Spatial Tissue Fidelity,0.9343227536779324
+MERFISH,scDesign3-rb,Spapros,Novelty-Gated Plausibility,0.9324390598476384
+MERFISH,scDesign3-rb,Spapros,Conservative Minimum Plausibility,0.8040084804940362
+MERFISH,scDesign3-rb,Spapros,coverage_Q,1.0
+MERFISH,scDesign3-rb,Spapros,novelty_gate,1.0
+MERFISH,scDesign3-rb,Spapros,copy_similarity,0.9489736808097259
+MERFISH,SRTsim-rf-tissue,Spapros,Balanced Realism,0.8882050788057637
+MERFISH,SRTsim-rf-tissue,Spapros,Spatial Tissue Fidelity,0.8702355489072288
+MERFISH,SRTsim-rf-tissue,Spapros,Novelty-Gated Plausibility,0.008728973875633244
+MERFISH,SRTsim-rf-tissue,Spapros,Conservative Minimum Plausibility,0.7844204156780041
+MERFISH,SRTsim-rf-tissue,Spapros,coverage_Q,1.0
+MERFISH,SRTsim-rf-tissue,Spapros,novelty_gate,0.009827655891553544
+MERFISH,SRTsim-rf-tissue,Spapros,copy_similarity,0.9995086172054223
+Visium,scDesign3-rb,Spapros,Balanced Realism,0.9508402822793627
+Visium,scDesign3-rb,Spapros,Spatial Tissue Fidelity,0.9476952449562807
+Visium,scDesign3-rb,Spapros,Novelty-Gated Plausibility,0.00016249080372938014
+Visium,scDesign3-rb,Spapros,Conservative Minimum Plausibility,0.8514810909577715
+Visium,scDesign3-rb,Spapros,coverage_Q,1.0
+Visium,scDesign3-rb,Spapros,novelty_gate,0.00017089179619089734
+Visium,scDesign3-rb,Spapros,copy_similarity,0.9999914554101904
+Xenium,SRTsim-rb-domain,Xenium,Balanced Realism,0.9966454353445005
+Xenium,SRTsim-rb-domain,Xenium,Spatial Tissue Fidelity,0.9998351933858847
+Xenium,SRTsim-rb-domain,Xenium,Novelty-Gated Plausibility,0.00030652823724524805
+Xenium,SRTsim-rb-domain,Xenium,Conservative Minimum Plausibility,0.9870761612203478
+Xenium,SRTsim-rb-domain,Xenium,coverage_Q,1.0
+Xenium,SRTsim-rb-domain,Xenium,novelty_gate,0.00030755996704012745
+Xenium,SRTsim-rb-domain,Xenium,copy_similarity,0.999984622001648
+MERFISH,SRTsim-rb-tissue,Spapros,Balanced Realism,0.9686169612902173
+MERFISH,SRTsim-rb-tissue,Spapros,Spatial Tissue Fidelity,0.9747485442350196
+MERFISH,SRTsim-rb-tissue,Spapros,Novelty-Gated Plausibility,0.018356220972487215
+MERFISH,SRTsim-rb-tissue,Spapros,Conservative Minimum Plausibility,0.9247452879932769
+MERFISH,SRTsim-rb-tissue,Spapros,coverage_Q,1.0
+MERFISH,SRTsim-rb-tissue,Spapros,novelty_gate,0.01895095967350846
+MERFISH,SRTsim-rb-tissue,Spapros,copy_similarity,0.9990524520163245

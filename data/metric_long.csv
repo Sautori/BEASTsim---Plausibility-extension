@@ -1,0 +1,987 @@
+platform,dataset_variant,simulator,family,metric,value,evidence_state
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,library_size,0.02300556586270872,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,effective_library_size,0.08682745825602968,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,fraction_zero_gene,0.021739130434782608,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,fraction_zero_spot,0.03339517625231911,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,mean_expression,0.011508951406649617,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,variance_expression,0.034526854219948847,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,scaled_variance,0.03324808184143223,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,pearson_cell_correlation,0.1093523297150405,computed
+Visium,Spapros,SRTsim-rb-tissue,E1_data_properties,spearman_cell_correlation,0.021325201471558475,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_precision,0.8376068376068376,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_recall,0.8376068376068376,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_jaccard,0.7205882352888192,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_global_real,0.4877354783448132,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_global_sim,0.4735249211641642,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_profile_cosine,0.9974247767311254,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_label,0.3677868549993091,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_NMI_real_vs_label,0.4702092230982895,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.9094686026601648,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_JSD,0.0510123690419871,computed
+Visium,Spapros,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_RMSE,0.02538333550660111,computed
+Visium,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9968931914068357,computed
+Visium,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9638596330517841,computed
+Visium,Spapros,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9644844144063355,computed
+Visium,Spapros,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.84,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,Balanced Realism,0.9699164526378011,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,Spatial Tissue Fidelity,0.9674536453440755,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,Novelty-Gated Plausibility,0.0004091122667137736,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9175158071689815,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,novelty_gate,0.0004218015537329478,computed
+Visium,Spapros,SRTsim-rb-tissue,biological_plausibility,copy_similarity,0.9999789099223133,computed
+Visium,Spapros,SRTsim-rb-tissue,E3_scalability,compute_seconds,10.95,computed
+Visium,Spapros,SRTsim-rb-tissue,E3_scalability,peak_memory_gb,1.01,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,library_size,0.3980249234168009,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,effective_library_size,0.5070581604924801,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,fraction_zero_gene,0.34977578475336324,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,fraction_zero_spot,0.05912842625848802,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,mean_expression,0.3452914798206278,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,variance_expression,0.3452914798206278,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,scaled_variance,0.3452914798206278,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,pearson_cell_correlation,0.3293422684536908,computed
+MERFISH,SpatialDE,scCube-rfb,E1_data_properties,spearman_cell_correlation,0.06173482696539312,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_precision,0.6363636363636364,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_recall,0.6363636363636364,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_jaccard,0.46666666665629636,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,moran_global_real,0.10980514004868674,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,moran_global_sim,0.11138233604747282,computed
+MERFISH,SpatialDE,scCube-rfb,E2_SVG_moran,moran_profile_cosine,0.8770202910292245,computed
+MERFISH,SpatialDE,scCube-rfb,E2_clustering,cluster_ARI_real_vs_label,0.4922239613847944,computed
+MERFISH,SpatialDE,scCube-rfb,E2_clustering,cluster_NMI_real_vs_label,0.6459060406850585,computed
+MERFISH,SpatialDE,scCube-rfb,E2_clustering,cluster_ARI_real_vs_sim,0.00010802086705578749,computed
+MERFISH,SpatialDE,scCube-rfb,E2_ct_proportion,ct_proportion_JSD,0.0008954316796179309,computed
+MERFISH,SpatialDE,scCube-rfb,E2_ct_proportion,ct_proportion_RMSE,0.00017990212125181646,computed
+MERFISH,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.999994879246593,computed
+MERFISH,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.8671166015068583,computed
+MERFISH,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999804000013525,computed
+MERFISH,SpatialDE,scCube-rfb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7578772750462341,computed
+MERFISH,SpatialDE,scCube-rfb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.6930000000000001,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,Balanced Realism,0.8490818559482994,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,Spatial Tissue Fidelity,0.9186411135820176,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,Novelty-Gated Plausibility,0.8490818559482994,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,Conservative Minimum Plausibility,0.6404040830471451,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,novelty_gate,1.0,computed
+MERFISH,SpatialDE,scCube-rfb,biological_plausibility,copy_similarity,0.7773507141305905,computed
+MERFISH,SpatialDE,scCube-rfb,E3_scalability,compute_seconds,18.34,computed
+MERFISH,SpatialDE,scCube-rfb,E3_scalability,peak_memory_gb,1.37,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,library_size,0.09866305724530389,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,effective_library_size,0.16645301508583524,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,fraction_zero_gene,0.026905829596412557,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,fraction_zero_spot,0.1126260770287386,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,mean_expression,0.03587443946188341,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,variance_expression,0.05829596412556054,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,scaled_variance,0.07623318385650224,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,pearson_cell_correlation,0.038104580916183295,computed
+MERFISH,SpatialDE,scDesign3-rb,E1_data_properties,spearman_cell_correlation,0.05400736147229446,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,SVG_precision,0.7272727272727273,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,SVG_recall,0.7272727272727273,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,SVG_jaccard,0.5714285714149661,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,moran_global_real,0.10980514004868674,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,moran_global_sim,0.048146756573440294,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_SVG_moran,moran_profile_cosine,0.9106484131596421,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_label,0.4922239613847944,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_clustering,cluster_NMI_real_vs_label,0.6459060406850585,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_sim,0.07030648129805475,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_ct_proportion,ct_proportion_JSD,0.00017854939618353787,computed
+MERFISH,SpatialDE,scDesign3-rb,E2_ct_proportion,ct_proportion_RMSE,3.594320312182946e-05,computed
+MERFISH,SpatialDE,scDesign3-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999988741564315,computed
+MERFISH,SpatialDE,scDesign3-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.7371562053107745,computed
+MERFISH,SpatialDE,scDesign3-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999957866622937,computed
+MERFISH,SpatialDE,scDesign3-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7382854826218427,computed
+MERFISH,SpatialDE,scDesign3-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.48600000000000004,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,Balanced Realism,0.9409636948436171,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,Spatial Tissue Fidelity,0.9395965339939195,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,Novelty-Gated Plausibility,0.8102788529620971,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,Conservative Minimum Plausibility,0.8189605702161846,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,novelty_gate,0.8611159573980811,computed
+MERFISH,SpatialDE,scDesign3-rb,biological_plausibility,copy_similarity,0.9569442021300959,computed
+MERFISH,SpatialDE,scDesign3-rb,E3_scalability,compute_seconds,17.91,computed
+MERFISH,SpatialDE,scDesign3-rb,E3_scalability,peak_memory_gb,1.37,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,library_size,0.013358070500927645,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,effective_library_size,0.05380333951762523,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,fraction_zero_gene,0.02557544757033248,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,fraction_zero_spot,0.03228200371057514,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,mean_expression,0.00639386189258312,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,variance_expression,0.024296675191815855,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,scaled_variance,0.02557544757033248,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,pearson_cell_correlation,0.05902211056522222,computed
+Visium,Spapros,SRTsim-rb-domain,E1_data_properties,spearman_cell_correlation,0.024490346857512002,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_precision,0.8376068376068376,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_recall,0.8376068376068376,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_jaccard,0.7205882352888192,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_global_real,0.4877354783448132,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_global_sim,0.4751128434908961,computed
+Visium,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_profile_cosine,0.9979878329588773,computed
+Visium,Spapros,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_label,0.3677868549993091,computed
+Visium,Spapros,SRTsim-rb-domain,E2_clustering,cluster_NMI_real_vs_label,0.4702092230982895,computed
+Visium,Spapros,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_sim,0.968096061770633,computed
+Visium,Spapros,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_JSD,0.03310545254750778,computed
+Visium,Spapros,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_RMSE,0.01686169612987274,computed
+Visium,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9976022114520607,computed
+Visium,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9750962583038391,computed
+Visium,Spapros,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9815417926466988,computed
+Visium,Spapros,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8633333333333333,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,Balanced Realism,0.9734856500361938,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,Spatial Tissue Fidelity,0.9704495379778967,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,Novelty-Gated Plausibility,0.00019872944634162558,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,Conservative Minimum Plausibility,0.9177973352828575,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,novelty_gate,0.0002041421425515999,computed
+Visium,Spapros,SRTsim-rb-domain,biological_plausibility,copy_similarity,0.9999897928928724,computed
+Visium,Spapros,SRTsim-rb-domain,E3_scalability,compute_seconds,9.76,computed
+Visium,Spapros,SRTsim-rb-domain,E3_scalability,peak_memory_gb,1.0,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,library_size,0.005936920222634508,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,effective_library_size,0.16808905380333952,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,fraction_zero_gene,0.009625,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,fraction_zero_spot,0.02189239332096475,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,mean_expression,0.009,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,variance_expression,0.007875,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,scaled_variance,0.0165,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,pearson_cell_correlation,0.03311474822769764,computed
+Visium,SpatialDE,SRTsim-rb-domain,E1_data_properties,spearman_cell_correlation,0.01792122396640372,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_precision,0.9591666666666666,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_recall,0.9591666666666666,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_jaccard,0.9215372297830893,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_global_real,0.21387554388725347,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_global_sim,0.20671328345883574,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_profile_cosine,0.9971653662476287,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_label,0.3928152620206252,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_NMI_real_vs_label,0.5675020017888964,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_sim,0.9178136926181373,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_JSD,0.05382528358263026,computed
+Visium,SpatialDE,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_RMSE,0.010282154801692207,computed
+Visium,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9967867050522377,computed
+Visium,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9323376571073952,computed
+Visium,SpatialDE,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9504307213979674,computed
+Visium,SpatialDE,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8306666666666668,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,Balanced Realism,0.9916075386732857,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,Spatial Tissue Fidelity,0.9928545784660506,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,Novelty-Gated Plausibility,0.0006190500140322067,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,Conservative Minimum Plausibility,0.9858181205703294,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,novelty_gate,0.0006242893381593895,computed
+Visium,SpatialDE,SRTsim-rb-domain,biological_plausibility,copy_similarity,0.999968785533092,computed
+Visium,SpatialDE,SRTsim-rb-domain,E3_scalability,compute_seconds,29.4,computed
+Visium,SpatialDE,SRTsim-rb-domain,E3_scalability,peak_memory_gb,8.29,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,library_size,1.0,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,effective_library_size,1.0,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,fraction_zero_gene,0.6215,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,fraction_zero_spot,0.9804496018217328,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,mean_expression,0.906125,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,variance_expression,0.966625,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,scaled_variance,0.37075,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,pearson_cell_correlation,0.25825034178715806,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E1_data_properties,spearman_cell_correlation,0.8994759728111317,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,SVG_precision,0.39666666666666667,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,SVG_recall,0.39666666666666667,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,SVG_jaccard,0.24740124740111882,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,moran_global_real,0.21993338330577375,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,moran_global_sim,0.3388881195398344,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_SVG_moran,moran_profile_cosine,0.8564920507639596,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_clustering,cluster_ARI_real_vs_label,0.31708969739232906,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_clustering,cluster_NMI_real_vs_label,0.5440150825679915,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_clustering,cluster_ARI_real_vs_sim,0.0008951831866758034,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_ct_proportion,ct_proportion_JSD,0.4611898314753581,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E2_ct_proportion,ct_proportion_RMSE,0.0967169724275695,computed
+Visium,SpatialDE,SpatialcoGCN-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.5824373027571268,computed
+Visium,SpatialDE,SpatialcoGCN-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.8100699232334705,computed
+Visium,SpatialDE,SpatialcoGCN-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.2240397438821899,computed
+Visium,SpatialDE,SpatialcoGCN-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.3221652865267643,computed
+Visium,SpatialDE,SpatialcoGCN-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.13466666666666668,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,Balanced Realism,0.40057756044281345,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,Spatial Tissue Fidelity,0.4911867472570846,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,Novelty-Gated Plausibility,0.40057756044281345,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,Conservative Minimum Plausibility,0.12874999999999992,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,novelty_gate,1.0,computed
+Visium,SpatialDE,SpatialcoGCN-rb,biological_plausibility,copy_similarity,0.7208271496754248,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E3_scalability,compute_seconds,18.92,computed
+Visium,SpatialDE,SpatialcoGCN-rb,E3_scalability,peak_memory_gb,3.96,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,library_size,0.01652471750996547,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,effective_library_size,0.11291743571779483,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,fraction_zero_gene,0.06756756756756757,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,fraction_zero_spot,0.015487706751547665,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,mean_expression,0.05855855855855856,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,variance_expression,0.04054054054054054,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,scaled_variance,0.06306306306306306,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,pearson_cell_correlation,0.0037434352433602935,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E1_data_properties,spearman_cell_correlation,0.0030772302024093118,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_precision,0.9090909090909091,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_recall,0.9090909090909091,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,SVG_jaccard,0.8333333333101852,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_global_real,0.10993121253514467,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_global_sim,0.1079057301247845,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_SVG_moran,moran_profile_cosine,0.9878801674941031,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_label,0.4966454141336732,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_NMI_real_vs_label,0.6487101243755614,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_sim,0.7120543361710676,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_JSD,0.00017872783649951996,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_RMSE,3.595560160514146e-05,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999988890247388,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.987660771802106,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999958332531232,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9945479539328046,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.852,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,Balanced Realism,0.9756298440370375,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,Spatial Tissue Fidelity,0.9827724073974359,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,Novelty-Gated Plausibility,0.006960815046172439,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,Conservative Minimum Plausibility,0.9484855382925061,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,novelty_gate,0.007134688518105836,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,biological_plausibility,copy_similarity,0.9996432655740947,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E3_scalability,compute_seconds,19.94,computed
+MERFISH,SpatialDE,SRTsim-rb-domain,E3_scalability,peak_memory_gb,1.37,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,library_size,0.06828437299602019,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,effective_library_size,0.19449973321062655,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,fraction_zero_gene,0.007625,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,fraction_zero_spot,0.14652757720982373,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,mean_expression,0.008,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,variance_expression,0.006125,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,scaled_variance,0.105,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,pearson_cell_correlation,0.09670442738685175,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E1_data_properties,spearman_cell_correlation,0.19346937376538254,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_precision,0.8966666666666666,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_recall,0.8966666666666666,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_jaccard,0.812688821751652,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_global_real,0.21387554388725347,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_global_sim,0.6055690813439476,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_profile_cosine,0.9090041807462856,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_label,0.3928152620206252,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_NMI_real_vs_label,0.5675020017888964,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.00016483693094954146,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_JSD,0.13055181070778604,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_RMSE,0.019448068553143797,computed
+Visium,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9944817503815936,computed
+Visium,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.6553062791600057,computed
+Visium,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.6077030226211401,computed
+Visium,SpatialDE,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9124729388659415,computed
+Visium,SpatialDE,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.7306666666666666,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Balanced Realism,0.9498699451551729,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Spatial Tissue Fidelity,0.9429076293846474,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Novelty-Gated Plausibility,0.0011154301197067364,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9072413479817438,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,novelty_gate,0.001174297729279683,computed
+Visium,SpatialDE,SRTsim-rf-tissue,biological_plausibility,copy_similarity,0.999941285113536,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E3_scalability,compute_seconds,28.89,computed
+Visium,SpatialDE,SRTsim-rf-tissue,E3_scalability,peak_memory_gb,8.22,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,library_size,0.049326173261341,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,effective_library_size,0.12563870355050152,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,fraction_zero_gene,0.015345268542199489,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,fraction_zero_spot,0.09281430970085323,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,mean_expression,0.017902813299232736,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,variance_expression,0.026854219948849106,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,scaled_variance,0.06521739130434782,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,pearson_cell_correlation,0.12608528780014017,computed
+Visium,Spapros,SRTsim-rf-tissue,E1_data_properties,spearman_cell_correlation,0.0931727887772843,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_precision,0.6239316239316239,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_recall,0.6239316239316239,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_jaccard,0.45341614906550676,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_global_real,0.4877354783448132,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_global_sim,0.8069384012041397,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_profile_cosine,0.9723189696788094,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_label,0.3677868549993091,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_NMI_real_vs_label,0.4702092230982895,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.0020284639286170065,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_JSD,0.14865271931021454,computed
+Visium,Spapros,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_RMSE,0.07268446587084448,computed
+Visium,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9944817503815936,computed
+Visium,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.8779500192463211,computed
+Visium,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.8131148783091153,computed
+Visium,Spapros,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.871511321091814,computed
+Visium,Spapros,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.71,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,Balanced Realism,0.9026523452936988,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,Spatial Tissue Fidelity,0.8793221666459002,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,Novelty-Gated Plausibility,0.00014894773041371323,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,Conservative Minimum Plausibility,0.7981252968052166,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,novelty_gate,0.00016501118197975728,computed
+Visium,Spapros,SRTsim-rf-tissue,biological_plausibility,copy_similarity,0.999991749440901,computed
+Visium,Spapros,SRTsim-rf-tissue,E3_scalability,compute_seconds,9.39,computed
+Visium,Spapros,SRTsim-rf-tissue,E3_scalability,peak_memory_gb,1.09,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,library_size,0.025839493326542663,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,effective_library_size,0.08390192406881537,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,fraction_zero_gene,0.03153153153153153,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,fraction_zero_spot,0.009953483076651832,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,mean_expression,0.02252252252252252,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,variance_expression,0.04504504504504504,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,scaled_variance,0.04054054054054054,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,pearson_cell_correlation,0.02280039841501713,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E1_data_properties,spearman_cell_correlation,0.012347141874099188,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_precision,0.9696969696969697,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_recall,0.9696969696969697,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_jaccard,0.9411764705605538,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_global_real,0.10993121253514467,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_global_sim,0.11175833971264568,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_profile_cosine,0.9809925039731031,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_label,0.4966454141336732,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_NMI_real_vs_label,0.6487101243755614,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.6923477786376537,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_JSD,0.00017872783649951996,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_RMSE,3.595560160514146e-05,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999988851165602,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9809856363546616,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999958067434372,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9953176610857396,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.9410000000000002,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Balanced Realism,0.9859846876665576,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Spatial Tissue Fidelity,0.991724466257547,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Novelty-Gated Plausibility,0.012694765625060602,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9687653518935896,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,novelty_gate,0.0128752157957992,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,biological_plausibility,copy_similarity,0.99935623921021,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E3_scalability,compute_seconds,17.35,computed
+MERFISH,SpatialDE,SRTsim-rb-tissue,E3_scalability,peak_memory_gb,1.37,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,library_size,0.06505744538160671,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,effective_library_size,0.29208981745732593,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,fraction_zero_gene,0.016125,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,fraction_zero_spot,0.09479981006554697,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,mean_expression,0.016,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,variance_expression,0.0125,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,scaled_variance,0.054125,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,pearson_cell_correlation,0.040524928429107265,computed
+Visium,SpatialDE,SRTsim-rf-domain,E1_data_properties,spearman_cell_correlation,0.12030581543314378,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_precision,0.9041666666666667,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_recall,0.9041666666666667,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_jaccard,0.8250950570335931,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_global_real,0.21387554388725347,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_global_sim,0.5015367300678668,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_profile_cosine,0.9203513459678441,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_label,0.3928152620206252,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_NMI_real_vs_label,0.5675020017888964,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_sim,0.0010877291577378054,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_JSD,0.14720973580364033,computed
+Visium,SpatialDE,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_RMSE,0.029893863816793976,computed
+Visium,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9944817503815936,computed
+Visium,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.742062280617115,computed
+Visium,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.7028934944249906,computed
+Visium,SpatialDE,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9018359092238215,computed
+Visium,SpatialDE,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.704,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,Balanced Realism,0.9363602968985867,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,Spatial Tissue Fidelity,0.9267324002525292,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,Novelty-Gated Plausibility,0.00112007519329784,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,Conservative Minimum Plausibility,0.9140519392986841,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,novelty_gate,0.0011962010745305562,computed
+Visium,SpatialDE,SRTsim-rf-domain,biological_plausibility,copy_similarity,0.9999401899462734,computed
+Visium,SpatialDE,SRTsim-rf-domain,E3_scalability,compute_seconds,26.43,computed
+Visium,SpatialDE,SRTsim-rf-domain,E3_scalability,peak_memory_gb,8.38,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,library_size,0.06339450615637664,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,effective_library_size,0.10403503566867565,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,fraction_zero_gene,0.04954954954954955,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,fraction_zero_spot,0.0223698167421598,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,mean_expression,0.04054054054054054,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,variance_expression,0.04504504504504504,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,scaled_variance,0.08108108108108109,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,pearson_cell_correlation,0.028592760761035785,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E1_data_properties,spearman_cell_correlation,0.024560606943785257,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_precision,0.8484848484848485,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_recall,0.8484848484848485,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,SVG_jaccard,0.7368421052437674,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_global_real,0.10993121253514467,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_global_sim,0.3043202202429661,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_SVG_moran,moran_profile_cosine,0.8965472533523335,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_label,0.4966454141336732,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_NMI_real_vs_label,0.6487101243755614,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_sim,0.0031285242775646624,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_JSD,0.10275422459982811,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_RMSE,0.019067279038826632,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.949091675629573,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.6682849804306369,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.680524660306004,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9901170248864035,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8319999999999999,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,Balanced Realism,0.9121074759989374,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,Spatial Tissue Fidelity,0.8993541047728758,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,Novelty-Gated Plausibility,0.14907415318252545,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,Conservative Minimum Plausibility,0.872516050918591,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,novelty_gate,0.16343924055579073,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,biological_plausibility,copy_similarity,0.9918280379722104,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E3_scalability,compute_seconds,17.71,computed
+MERFISH,SpatialDE,SRTsim-rf-domain,E3_scalability,peak_memory_gb,1.37,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,library_size,0.08237368675421039,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,effective_library_size,0.06354233030428265,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,fraction_zero_gene,0.02702702702702703,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,fraction_zero_spot,0.03894605920735532,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,mean_expression,0.03153153153153153,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,variance_expression,0.04504504504504504,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,scaled_variance,0.12162162162162163,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,pearson_cell_correlation,0.04864982456275169,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E1_data_properties,spearman_cell_correlation,0.09649662807779286,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_precision,0.8181818181818182,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_recall,0.8181818181818182,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,SVG_jaccard,0.6923076922899409,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_global_real,0.10993121253514467,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_global_sim,0.43433150607054966,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_SVG_moran,moran_profile_cosine,0.8696726981895049,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_label,0.4966454141336732,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_NMI_real_vs_label,0.6487101243755614,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.0031252599056035587,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_JSD,0.09871878657783913,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_RMSE,0.018223787668208195,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9490404864412686,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.5183784744923035,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.6957832802395891,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9294868190567742,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.6889999999999998,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Balanced Realism,0.9064120931223143,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Spatial Tissue Fidelity,0.8907142316929035,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Novelty-Gated Plausibility,0.009141165606613632,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,Conservative Minimum Plausibility,0.8439272581856616,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,novelty_gate,0.010084999611076562,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,biological_plausibility,copy_similarity,0.9994957500194461,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E3_scalability,compute_seconds,18.0,computed
+MERFISH,SpatialDE,SRTsim-rf-tissue,E3_scalability,peak_memory_gb,1.37,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,library_size,1.0,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,effective_library_size,0.9991150442477876,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,fraction_zero_gene,0.49606299212598426,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,fraction_zero_spot,0.7033362339304186,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,mean_expression,0.9553805774278216,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,variance_expression,0.9750656167979003,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,scaled_variance,0.2532808398950131,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,pearson_cell_correlation,0.32613567685865186,computed
+Visium,Spapros,SpatialcoGCN-rb,E1_data_properties,spearman_cell_correlation,0.5788449478006283,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,SVG_precision,0.14912280701754385,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,SVG_recall,0.14912280701754385,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,SVG_jaccard,0.08056872037876509,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,moran_global_real,0.484317015053671,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,moran_global_sim,0.5266054668719934,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_SVG_moran,moran_profile_cosine,0.9202313537947643,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_clustering,cluster_ARI_real_vs_label,0.3652427650534701,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_clustering,cluster_NMI_real_vs_label,0.4675810634317707,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_clustering,cluster_ARI_real_vs_sim,0.0003655149247079984,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_ct_proportion,ct_proportion_JSD,0.48027888770383254,computed
+Visium,Spapros,SpatialcoGCN-rb,E2_ct_proportion,ct_proportion_RMSE,0.26119517427181665,computed
+Visium,Spapros,SpatialcoGCN-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.5731521243983138,computed
+Visium,Spapros,SpatialcoGCN-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9176334353352236,computed
+Visium,Spapros,SpatialcoGCN-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.205796072175793,computed
+Visium,Spapros,SpatialcoGCN-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.45459539995472203,computed
+Visium,Spapros,SpatialcoGCN-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.37999999999999995,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,Balanced Realism,0.407007078760692,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,Spatial Tissue Fidelity,0.49488520387689805,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,Novelty-Gated Plausibility,0.407007078760692,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,Conservative Minimum Plausibility,0.14337270341207353,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,novelty_gate,1.0,computed
+Visium,Spapros,SpatialcoGCN-rb,biological_plausibility,copy_similarity,0.1421666959030762,computed
+Visium,Spapros,SpatialcoGCN-rb,E3_scalability,compute_seconds,6.38,computed
+Visium,Spapros,SpatialcoGCN-rb,E3_scalability,peak_memory_gb,0.7,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,library_size,0.949280128626763,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,effective_library_size,0.9945041292114303,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,fraction_zero_gene,0.5356200527704486,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,fraction_zero_spot,1.0,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,mean_expression,0.37994722955145116,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,variance_expression,0.2849604221635884,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,scaled_variance,0.575197889182058,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,pearson_cell_correlation,0.584219323864773,computed
+Xenium,Xenium,scCube-rb,E1_data_properties,spearman_cell_correlation,0.724816323264653,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,SVG_precision,0.49122807017543857,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,SVG_recall,0.49122807017543857,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,SVG_jaccard,0.32558139534505137,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,moran_global_real,0.1305222866844679,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,moran_global_sim,0.45754113459241685,computed
+Xenium,Xenium,scCube-rb,E2_SVG_moran,moran_profile_cosine,0.7675808636930298,computed
+Xenium,Xenium,scCube-rb,E2_clustering,cluster_ARI_real_vs_label,0.08409893313980148,computed
+Xenium,Xenium,scCube-rb,E2_clustering,cluster_NMI_real_vs_label,0.3702778087998803,computed
+Xenium,Xenium,scCube-rb,E2_clustering,cluster_ARI_real_vs_sim,-1.063247295875308e-05,computed
+Xenium,Xenium,scCube-rb,E2_ct_proportion,ct_proportion_JSD,0.0,computed
+Xenium,Xenium,scCube-rb,E2_ct_proportion,ct_proportion_RMSE,0.0,computed
+Xenium,Xenium,scCube-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9951613630132967,computed
+Xenium,Xenium,scCube-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.46101912330903305,computed
+Xenium,Xenium,scCube-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9992754948703666,computed
+Xenium,Xenium,scCube-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7099295325707184,computed
+Xenium,Xenium,scCube-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.5483870967741935,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,Balanced Realism,0.7702302008439341,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,Spatial Tissue Fidelity,0.8727909205512665,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,Novelty-Gated Plausibility,0.7702302008439341,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,Conservative Minimum Plausibility,0.4625480417219372,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,coverage_Q,1.0,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,novelty_gate,1.0,computed
+Xenium,Xenium,scCube-rb,biological_plausibility,copy_similarity,0.8656675568709084,computed
+Xenium,Xenium,scCube-rb,E3_scalability,compute_seconds,39.6,computed
+Xenium,Xenium,scCube-rb,E3_scalability,peak_memory_gb,1.82,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,library_size,0.889795918367347,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,effective_library_size,0.9269016697588126,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,fraction_zero_gene,0.1175,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,fraction_zero_spot,0.2025974025974026,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,mean_expression,0.31625,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,variance_expression,0.49125,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,scaled_variance,0.7125,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,pearson_cell_correlation,0.8983098564390324,computed
+Visium,Spapros,scCube-rfb,E1_data_properties,spearman_cell_correlation,0.08055942360746687,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,SVG_precision,0.44166666666666665,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,SVG_recall,0.44166666666666665,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,SVG_jaccard,0.28342245989153253,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,moran_global_real,0.48707672110344363,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,moran_global_sim,0.3446663220078441,computed
+Visium,Spapros,scCube-rfb,E2_SVG_moran,moran_profile_cosine,0.9596712389018591,computed
+Visium,Spapros,scCube-rfb,E2_clustering,cluster_ARI_real_vs_label,0.3839125904691922,computed
+Visium,Spapros,scCube-rfb,E2_clustering,cluster_NMI_real_vs_label,0.49063646308127756,computed
+Visium,Spapros,scCube-rfb,E2_clustering,cluster_ARI_real_vs_sim,0.0009769246107510317,computed
+Visium,Spapros,scCube-rfb,E2_ct_proportion,ct_proportion_JSD,0.481142301455207,computed
+Visium,Spapros,scCube-rfb,E2_ct_proportion,ct_proportion_RMSE,0.24242790248773669,computed
+Visium,Spapros,scCube-rfb,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,Spapros,scCube-rfb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9128027475905252,computed
+Visium,Spapros,scCube-rfb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.6273223108283323,computed
+Visium,Spapros,scCube-rfb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.3812262952233045,computed
+Visium,Spapros,scCube-rfb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.35000000000000003,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,Balanced Realism,0.6602324112311595,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,Spatial Tissue Fidelity,0.6982095415054915,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,Novelty-Gated Plausibility,0.6602324112311595,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,Conservative Minimum Plausibility,0.3939596717322119,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,novelty_gate,1.0,computed
+Visium,Spapros,scCube-rfb,biological_plausibility,copy_similarity,0.3418635379490567,computed
+Visium,Spapros,scCube-rfb,E3_scalability,compute_seconds,9.88,computed
+Visium,Spapros,scCube-rfb,E3_scalability,peak_memory_gb,1.12,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,library_size,0.08297887890082584,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,effective_library_size,0.30018270847036466,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,fraction_zero_gene,0.013192612137203167,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,fraction_zero_spot,0.11319155156033034,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,mean_expression,0.0158311345646438,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,variance_expression,0.018469656992084433,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,scaled_variance,0.05013192612137203,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,pearson_cell_correlation,0.17686721344268863,computed
+Xenium,Xenium,scDesign3-rb,E1_data_properties,spearman_cell_correlation,0.15940628125625128,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,SVG_precision,0.7017543859649122,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,SVG_recall,0.7017543859649122,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,SVG_jaccard,0.5405405405332359,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,moran_global_real,0.1305222866844679,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,moran_global_sim,0.04201950286284716,computed
+Xenium,Xenium,scDesign3-rb,E2_SVG_moran,moran_profile_cosine,0.885933688651797,computed
+Xenium,Xenium,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_label,0.08409893313980148,computed
+Xenium,Xenium,scDesign3-rb,E2_clustering,cluster_NMI_real_vs_label,0.3702778087998803,computed
+Xenium,Xenium,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_sim,0.04482757759647533,computed
+Xenium,Xenium,scDesign3-rb,E2_ct_proportion,ct_proportion_JSD,0.0,computed
+Xenium,Xenium,scDesign3-rb,E2_ct_proportion,ct_proportion_RMSE,0.0,computed
+Xenium,Xenium,scDesign3-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Xenium,Xenium,scDesign3-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.6076376864770034,computed
+Xenium,Xenium,scDesign3-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,1.0,computed
+Xenium,Xenium,scDesign3-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.6931168364973351,computed
+Xenium,Xenium,scDesign3-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.4729032258064516,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,Balanced Realism,0.9403064891650559,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,Spatial Tissue Fidelity,0.9312813424363043,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,Novelty-Gated Plausibility,0.0005153429667561887,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,Conservative Minimum Plausibility,0.7938440373083546,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,coverage_Q,1.0,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,novelty_gate,0.0005480585029395968,computed
+Xenium,Xenium,scDesign3-rb,biological_plausibility,copy_similarity,0.999972597074853,computed
+Xenium,Xenium,scDesign3-rb,E3_scalability,compute_seconds,38.67,computed
+Xenium,Xenium,scDesign3-rb,E3_scalability,peak_memory_gb,1.78,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,library_size,0.0031279690126434223,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,effective_library_size,0.14790616092962067,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,fraction_zero_gene,0.013262599469496022,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,fraction_zero_spot,0.004194986479573226,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,mean_expression,0.013262599469496022,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,variance_expression,0.029177718832891247,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,scaled_variance,0.01856763925729443,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,pearson_cell_correlation,0.025356511302260465,computed
+Xenium,Xenium,SRTsim-rb-tissue,E1_data_properties,spearman_cell_correlation,0.01353014602920588,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,SVG_precision,0.9824561403508771,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,SVG_recall,0.9824561403508771,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,SVG_jaccard,0.9655172413626636,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,moran_global_real,0.13079559786297412,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,moran_global_sim,0.12823261752743395,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_SVG_moran,moran_profile_cosine,0.9969902347688975,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_label,0.07950616719343988,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_clustering,cluster_NMI_real_vs_label,0.36570730946057034,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.6502865674781859,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_JSD,0.0,computed
+Xenium,Xenium,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_RMSE,0.0,computed
+Xenium,Xenium,SRTsim-rb-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Xenium,Xenium,SRTsim-rb-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9967015458194576,computed
+Xenium,Xenium,SRTsim-rb-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,1.0,computed
+Xenium,Xenium,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9990657772737896,computed
+Xenium,Xenium,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.9851612903225807,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,Balanced Realism,0.9937538639660785,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,Spatial Tissue Fidelity,0.9965743925201486,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,Novelty-Gated Plausibility,0.00022034432732695363,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9852922783038683,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,coverage_Q,1.0,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,novelty_gate,0.00022172927856356495,computed
+Xenium,Xenium,SRTsim-rb-tissue,biological_plausibility,copy_similarity,0.9999889135360718,computed
+Xenium,Xenium,SRTsim-rb-tissue,E3_scalability,compute_seconds,37.19,computed
+Xenium,Xenium,SRTsim-rb-tissue,E3_scalability,peak_memory_gb,1.65,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,library_size,0.04210964308966571,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,effective_library_size,0.11482418825049809,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,fraction_zero_gene,0.014066496163682864,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,fraction_zero_spot,0.06680601720179556,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,mean_expression,0.020460358056265986,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,variance_expression,0.01918158567774936,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,scaled_variance,0.06265984654731457,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,pearson_cell_correlation,0.06405500940770426,computed
+Visium,Spapros,SRTsim-rf-domain,E1_data_properties,spearman_cell_correlation,0.05448871693514201,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_precision,0.6666666666666666,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_recall,0.6666666666666666,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_jaccard,0.4999999999967949,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_global_real,0.4877354783448132,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_global_sim,0.7348329821326467,computed
+Visium,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_profile_cosine,0.9766548464838096,computed
+Visium,Spapros,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_label,0.3677868549993091,computed
+Visium,Spapros,SRTsim-rf-domain,E2_clustering,cluster_NMI_real_vs_label,0.4702092230982895,computed
+Visium,Spapros,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_sim,0.00292110285640201,computed
+Visium,Spapros,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_JSD,0.2699419583479027,computed
+Visium,Spapros,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_RMSE,0.11662308865254371,computed
+Visium,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9944817503815936,computed
+Visium,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9140742549040896,computed
+Visium,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.7743338261040625,computed
+Visium,Spapros,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7868224333086613,computed
+Visium,Spapros,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.6666666666666666,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,Balanced Realism,0.8733338732095026,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,Spatial Tissue Fidelity,0.8390966711949505,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,Novelty-Gated Plausibility,0.00014186609761246129,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,Conservative Minimum Plausibility,0.7461420310806045,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,novelty_gate,0.00016244199608461685,computed
+Visium,Spapros,SRTsim-rf-domain,biological_plausibility,copy_similarity,0.9999918779001957,computed
+Visium,Spapros,SRTsim-rf-domain,E3_scalability,compute_seconds,10.73,computed
+Visium,Spapros,SRTsim-rf-domain,E3_scalability,peak_memory_gb,1.15,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,library_size,0.3862708719851577,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,effective_library_size,0.5376623376623376,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,fraction_zero_gene,0.154625,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,fraction_zero_spot,0.33172541743970313,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,mean_expression,0.29875,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,variance_expression,0.360625,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,scaled_variance,0.4915,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,pearson_cell_correlation,0.842426446180821,computed
+Visium,SpatialDE,scCube-rfb,E1_data_properties,spearman_cell_correlation,0.23910896612137467,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_precision,0.655,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_recall,0.655,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,SVG_jaccard,0.4869888475833414,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,moran_global_real,0.21646171406905915,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,moran_global_sim,0.1495226084248403,computed
+Visium,SpatialDE,scCube-rfb,E2_SVG_moran,moran_profile_cosine,0.9284654109694982,computed
+Visium,SpatialDE,scCube-rfb,E2_clustering,cluster_ARI_real_vs_label,0.3783451991455228,computed
+Visium,SpatialDE,scCube-rfb,E2_clustering,cluster_NMI_real_vs_label,0.5618666796885315,computed
+Visium,SpatialDE,scCube-rfb,E2_clustering,cluster_ARI_real_vs_sim,-8.793951830595232e-05,computed
+Visium,SpatialDE,scCube-rfb,E2_ct_proportion,ct_proportion_JSD,0.21972493943511096,computed
+Visium,SpatialDE,scCube-rfb,E2_ct_proportion,ct_proportion_RMSE,0.031149388758997105,computed
+Visium,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.8741302391161638,computed
+Visium,SpatialDE,scCube-rfb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.7652738105455723,computed
+Visium,SpatialDE,scCube-rfb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.5766707489827375,computed
+Visium,SpatialDE,scCube-rfb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.322,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,Balanced Realism,0.8405169240106912,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,Spatial Tissue Fidelity,0.9128110239128325,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,Novelty-Gated Plausibility,0.8405169240106912,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,Conservative Minimum Plausibility,0.6236346243042672,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,novelty_gate,1.0,computed
+Visium,SpatialDE,scCube-rfb,biological_plausibility,copy_similarity,0.2791861565390327,computed
+Visium,SpatialDE,scCube-rfb,E3_scalability,compute_seconds,28.9,computed
+Visium,SpatialDE,scCube-rfb,E3_scalability,peak_memory_gb,9.34,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,library_size,0.05922998844943029,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,effective_library_size,0.10359292202168624,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,fraction_zero_gene,0.08080808080808081,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,fraction_zero_spot,0.01414195846617949,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,mean_expression,0.08080808080808081,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,variance_expression,0.1111111111111111,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,scaled_variance,0.12121212121212122,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,pearson_cell_correlation,0.02785894780315762,computed
+MERFISH,Spapros,SRTsim-rf-domain,E1_data_properties,spearman_cell_correlation,0.025795357029828825,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_precision,0.8,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_recall,0.8,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,SVG_jaccard,0.6666666666296296,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_global_real,0.1741989597125825,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_global_sim,0.38941678545943265,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_SVG_moran,moran_profile_cosine,0.9461683776205768,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_label,0.5079047942649512,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_clustering,cluster_NMI_real_vs_label,0.6509370512365306,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_clustering,cluster_ARI_real_vs_sim,0.003196780445369346,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_JSD,0.1024586523959967,computed
+MERFISH,Spapros,SRTsim-rf-domain,E2_ct_proportion,ct_proportion_RMSE,0.018788758686702954,computed
+MERFISH,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9488650685809019,computed
+MERFISH,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.7585857620622874,computed
+MERFISH,Spapros,SRTsim-rf-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.6871520767375578,computed
+MERFISH,Spapros,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9881286836391059,computed
+MERFISH,Spapros,SRTsim-rf-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.9058823529411765,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,Balanced Realism,0.9045504549126228,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,Spatial Tissue Fidelity,0.9003970449815557,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,Novelty-Gated Plausibility,0.18334015791180228,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,Conservative Minimum Plausibility,0.8730841888102885,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,novelty_gate,0.20268649130192795,computed
+MERFISH,Spapros,SRTsim-rf-domain,biological_plausibility,copy_similarity,0.9898656754349036,computed
+MERFISH,Spapros,SRTsim-rf-domain,E3_scalability,compute_seconds,18.07,computed
+MERFISH,Spapros,SRTsim-rf-domain,E3_scalability,peak_memory_gb,1.33,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,library_size,0.012573728008560532,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,effective_library_size,0.04638435914749464,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,fraction_zero_gene,0.030303030303030304,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,fraction_zero_spot,0.009299868244490158,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,mean_expression,0.030303030303030304,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,variance_expression,0.06060606060606061,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,scaled_variance,0.050505050505050504,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,pearson_cell_correlation,0.0051838225784610475,computed
+MERFISH,Spapros,SRTsim-rb-domain,E1_data_properties,spearman_cell_correlation,0.004476475401046898,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_precision,0.9333333333333333,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_recall,0.9333333333333333,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,SVG_jaccard,0.8749999999453125,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_global_real,0.1741989597125825,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_global_sim,0.16679692695682463,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_SVG_moran,moran_profile_cosine,0.9804519786209624,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_label,0.5079047942649512,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_clustering,cluster_NMI_real_vs_label,0.6509370512365306,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_sim,0.6029888367019189,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_JSD,0.00017980753744784362,computed
+MERFISH,Spapros,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_RMSE,3.6030127403008545e-05,computed
+MERFISH,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999965891769073,computed
+MERFISH,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9796481821326597,computed
+MERFISH,Spapros,SRTsim-rb-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999871464973632,computed
+MERFISH,Spapros,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.995407302636082,computed
+MERFISH,Spapros,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.9249999999999998,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,Balanced Realism,0.9807746337587702,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,Spatial Tissue Fidelity,0.9855149991134168,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,Novelty-Gated Plausibility,0.007799657170911738,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,Conservative Minimum Plausibility,0.9568926559771479,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,novelty_gate,0.007952547815210043,computed
+MERFISH,Spapros,SRTsim-rb-domain,biological_plausibility,copy_similarity,0.9996023726092395,computed
+MERFISH,Spapros,SRTsim-rb-domain,E3_scalability,compute_seconds,16.21,computed
+MERFISH,Spapros,SRTsim-rb-domain,E3_scalability,peak_memory_gb,1.34,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,library_size,0.3785904524171597,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,effective_library_size,0.5075304542202476,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,fraction_zero_gene,0.07,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,fraction_zero_spot,0.020252085513082486,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,mean_expression,0.48,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,variance_expression,0.47,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,scaled_variance,0.18,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,pearson_cell_correlation,0.23699339867973596,computed
+MERFISH,Spapros,scCube-rfb,E1_data_properties,spearman_cell_correlation,0.019385797159431895,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,SVG_precision,0.7333333333333333,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,SVG_recall,0.7333333333333333,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,SVG_jaccard,0.5789473683905817,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,moran_global_real,0.1732796308069121,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,moran_global_sim,0.20649365649801824,computed
+MERFISH,Spapros,scCube-rfb,E2_SVG_moran,moran_profile_cosine,0.9273530791761366,computed
+MERFISH,Spapros,scCube-rfb,E2_clustering,cluster_ARI_real_vs_label,0.5165174153672787,computed
+MERFISH,Spapros,scCube-rfb,E2_clustering,cluster_NMI_real_vs_label,0.6565442108273134,computed
+MERFISH,Spapros,scCube-rfb,E2_clustering,cluster_ARI_real_vs_sim,0.00018171671642438922,computed
+MERFISH,Spapros,scCube-rfb,E2_ct_proportion,ct_proportion_JSD,0.00017962650008959523,computed
+MERFISH,Spapros,scCube-rfb,E2_ct_proportion,ct_proportion_RMSE,3.6017690355231075e-05,computed
+MERFISH,Spapros,scCube-rfb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999988715458431,computed
+MERFISH,Spapros,scCube-rfb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9096302527781104,computed
+MERFISH,Spapros,scCube-rfb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999957264815796,computed
+MERFISH,Spapros,scCube-rfb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7813700212876403,computed
+MERFISH,Spapros,scCube-rfb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8132352941176471,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,Balanced Realism,0.8701311138302827,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,Spatial Tissue Fidelity,0.9433906894751402,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,Novelty-Gated Plausibility,0.8701311138302827,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,Conservative Minimum Plausibility,0.6503523868957101,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,novelty_gate,1.0,computed
+MERFISH,Spapros,scCube-rfb,biological_plausibility,copy_similarity,0.7804525548574578,computed
+MERFISH,Spapros,scCube-rfb,E3_scalability,compute_seconds,19.12,computed
+MERFISH,Spapros,scCube-rfb,E3_scalability,peak_memory_gb,1.33,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,library_size,0.01855287569573284,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,effective_library_size,0.22040816326530613,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,fraction_zero_gene,0.002625,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,fraction_zero_spot,0.010018552875695733,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,mean_expression,0.003375,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,variance_expression,0.00625,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,scaled_variance,0.023,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,pearson_cell_correlation,0.11043354778639547,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E1_data_properties,spearman_cell_correlation,0.006406320373867236,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_precision,0.9733333333333334,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_recall,0.9733333333333334,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,SVG_jaccard,0.9480519480511785,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_global_real,0.21387554388725347,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_global_sim,0.20666478171122388,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_SVG_moran,moran_profile_cosine,0.9981015146963925,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_label,0.3928152620206252,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_NMI_real_vs_label,0.5675020017888964,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.6449828502180875,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_JSD,0.02904121055773695,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_RMSE,0.0034729080391235874,computed
+Visium,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9975880590683962,computed
+Visium,SpatialDE,SRTsim-rb-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9202266409331791,computed
+Visium,SpatialDE,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9818260801955098,computed
+Visium,SpatialDE,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.88,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Balanced Realism,0.9931483040496099,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Spatial Tissue Fidelity,0.9950455665002839,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Novelty-Gated Plausibility,0.0014706440166513208,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9864791765200374,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,coverage_Q,1.0,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,novelty_gate,0.0014807899390802959,computed
+Visium,SpatialDE,SRTsim-rb-tissue,biological_plausibility,copy_similarity,0.9999259605030459,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E3_scalability,compute_seconds,29.44,computed
+Visium,SpatialDE,SRTsim-rb-tissue,E3_scalability,peak_memory_gb,8.14,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,library_size,0.09284808657297451,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,effective_library_size,0.1754043822211111,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,fraction_zero_gene,0.04,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,fraction_zero_spot,0.09268108954326565,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,mean_expression,0.06,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,variance_expression,0.1,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,scaled_variance,0.11,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,pearson_cell_correlation,0.04294898979795955,computed
+MERFISH,Spapros,scDesign3-rb,E1_data_properties,spearman_cell_correlation,0.06171794358871774,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,SVG_precision,0.6666666666666666,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,SVG_recall,0.6666666666666666,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,SVG_jaccard,0.499999999975,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,moran_global_real,0.1732796308069121,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,moran_global_sim,0.08478564363436185,computed
+MERFISH,Spapros,scDesign3-rb,E2_SVG_moran,moran_profile_cosine,0.9413502943214058,computed
+MERFISH,Spapros,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_label,0.5165174153672787,computed
+MERFISH,Spapros,scDesign3-rb,E2_clustering,cluster_NMI_real_vs_label,0.6565442108273134,computed
+MERFISH,Spapros,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_sim,0.06320979681832974,computed
+MERFISH,Spapros,scDesign3-rb,E2_ct_proportion,ct_proportion_JSD,0.0012536066725593235,computed
+MERFISH,Spapros,scDesign3-rb,E2_ct_proportion,ct_proportion_RMSE,0.000251863014728877,computed
+MERFISH,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999929016907657,computed
+MERFISH,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.767053052224091,computed
+MERFISH,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999715399959188,computed
+MERFISH,Spapros,scDesign3-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.7251532506753041,computed
+MERFISH,Spapros,scDesign3-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.6279411764705882,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,Balanced Realism,0.9324390598476384,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,Spatial Tissue Fidelity,0.9343227536779324,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,Novelty-Gated Plausibility,0.9324390598476384,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,Conservative Minimum Plausibility,0.8040084804940362,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,novelty_gate,1.0,computed
+MERFISH,Spapros,scDesign3-rb,biological_plausibility,copy_similarity,0.9489736808097259,computed
+MERFISH,Spapros,scDesign3-rb,E3_scalability,compute_seconds,18.23,computed
+MERFISH,Spapros,scDesign3-rb,E3_scalability,peak_memory_gb,1.33,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,library_size,0.08003017447937395,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,effective_library_size,0.11184529364685943,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,fraction_zero_gene,0.030303030303030304,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,fraction_zero_spot,0.03338634681932931,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,mean_expression,0.030303030303030304,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,variance_expression,0.09090909090909091,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,scaled_variance,0.24242424242424243,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,pearson_cell_correlation,0.0434027147487121,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E1_data_properties,spearman_cell_correlation,0.09441829230626536,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_precision,0.6666666666666666,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_recall,0.6666666666666666,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,SVG_jaccard,0.499999999975,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_global_real,0.1741989597125825,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_global_sim,0.5571927305454786,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_SVG_moran,moran_profile_cosine,0.9021741646893416,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_label,0.5079047942649512,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_NMI_real_vs_label,0.6509370512365306,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.003644966187705379,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_JSD,0.1007922910173806,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E2_ct_proportion,ct_proportion_RMSE,0.01877321716967872,computed
+MERFISH,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9491204282912347,computed
+MERFISH,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.587959057144477,computed
+MERFISH,Spapros,SRTsim-rf-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.7175026898415502,computed
+MERFISH,Spapros,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9246438756860804,computed
+MERFISH,Spapros,SRTsim-rf-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.764705882352941,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,Balanced Realism,0.8882050788057637,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,Spatial Tissue Fidelity,0.8702355489072288,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,Novelty-Gated Plausibility,0.008728973875633244,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,Conservative Minimum Plausibility,0.7844204156780041,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,novelty_gate,0.009827655891553544,computed
+MERFISH,Spapros,SRTsim-rf-tissue,biological_plausibility,copy_similarity,0.9995086172054223,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E3_scalability,compute_seconds,19.27,computed
+MERFISH,Spapros,SRTsim-rf-tissue,E3_scalability,peak_memory_gb,1.33,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,library_size,0.08014842300556586,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,effective_library_size,0.09536178107606678,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,fraction_zero_gene,0.04625,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,fraction_zero_spot,0.04786641929499073,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,mean_expression,0.00875,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,variance_expression,0.02375,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,scaled_variance,0.0425,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,pearson_cell_correlation,0.060601928562475815,computed
+Visium,Spapros,scDesign3-rb,E1_data_properties,spearman_cell_correlation,0.03976596105135721,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,SVG_precision,0.7083333333333334,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,SVG_recall,0.7083333333333334,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,SVG_jaccard,0.5483870967706556,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,moran_global_real,0.48707672110344363,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,moran_global_sim,0.4036819934084164,computed
+Visium,Spapros,scDesign3-rb,E2_SVG_moran,moran_profile_cosine,0.9946288485822097,computed
+Visium,Spapros,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_label,0.3839125904691922,computed
+Visium,Spapros,scDesign3-rb,E2_clustering,cluster_NMI_real_vs_label,0.49063646308127756,computed
+Visium,Spapros,scDesign3-rb,E2_clustering,cluster_ARI_real_vs_sim,0.5532048845869284,computed
+Visium,Spapros,scDesign3-rb,E2_ct_proportion,ct_proportion_JSD,0.030514290010851562,computed
+Visium,Spapros,scDesign3-rb,E2_ct_proportion,ct_proportion_RMSE,0.01421042089434268,computed
+Visium,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,Shape_mean_dice_score,1.0,computed
+Visium,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.979004222043173,computed
+Visium,Spapros,scDesign3-rb,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9078879551517646,computed
+Visium,Spapros,scDesign3-rb,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9724598992687824,computed
+Visium,Spapros,scDesign3-rb,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8666666666666666,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,Balanced Realism,0.9508402822793627,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,Spatial Tissue Fidelity,0.9476952449562807,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,Novelty-Gated Plausibility,0.00016249080372938014,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,Conservative Minimum Plausibility,0.8514810909577715,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,coverage_Q,1.0,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,novelty_gate,0.00017089179619089734,computed
+Visium,Spapros,scDesign3-rb,biological_plausibility,copy_similarity,0.9999914554101904,computed
+Visium,Spapros,scDesign3-rb,E3_scalability,compute_seconds,10.05,computed
+Visium,Spapros,scDesign3-rb,E3_scalability,peak_memory_gb,1.1,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,library_size,0.006602516922322166,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,effective_library_size,0.25429349874832535,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,fraction_zero_gene,0.013262599469496022,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,fraction_zero_spot,0.00737692757382824,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,mean_expression,0.013262599469496022,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,variance_expression,0.01856763925729443,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,scaled_variance,0.015915119363395226,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,pearson_cell_correlation,0.012645649129825964,computed
+Xenium,Xenium,SRTsim-rb-domain,E1_data_properties,spearman_cell_correlation,0.018313022604520945,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,SVG_precision,1.0,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,SVG_recall,1.0,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,SVG_jaccard,0.9999999999824563,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,moran_global_real,0.13079559786297412,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,moran_global_sim,0.1271592903031505,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_SVG_moran,moran_profile_cosine,0.9990683794946373,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_label,0.07950616719343988,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_clustering,cluster_NMI_real_vs_label,0.36570730946057034,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_clustering,cluster_ARI_real_vs_sim,0.12770792388558846,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_JSD,0.003183019904584906,computed
+Xenium,Xenium,SRTsim-rb-domain,E2_ct_proportion,ct_proportion_RMSE,5.7540361211194185e-06,computed
+Xenium,Xenium,SRTsim-rb-domain,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999999668352159,computed
+Xenium,Xenium,SRTsim-rb-domain,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9987713462266161,computed
+Xenium,Xenium,SRTsim-rb-domain,BEASTsim_similarity_DSC,CT_mean_dice_score,1.0,computed
+Xenium,Xenium,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9820014304254948,computed
+Xenium,Xenium,SRTsim-rb-domain,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.8858064516129034,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,Balanced Realism,0.9966454353445005,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,Spatial Tissue Fidelity,0.9998351933858847,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,Novelty-Gated Plausibility,0.00030652823724524805,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,Conservative Minimum Plausibility,0.9870761612203478,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,coverage_Q,1.0,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,novelty_gate,0.00030755996704012745,computed
+Xenium,Xenium,SRTsim-rb-domain,biological_plausibility,copy_similarity,0.999984622001648,computed
+Xenium,Xenium,SRTsim-rb-domain,E3_scalability,compute_seconds,37.8,computed
+Xenium,Xenium,SRTsim-rb-domain,E3_scalability,peak_memory_gb,1.65,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,library_size,0.02739397845958402,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,effective_library_size,0.08984914805121359,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,fraction_zero_gene,0.030303030303030304,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,fraction_zero_spot,0.010066365175603149,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,mean_expression,0.04040404040404041,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,variance_expression,0.10101010101010101,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,scaled_variance,0.0707070707070707,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,pearson_cell_correlation,0.02772019354069427,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E1_data_properties,spearman_cell_correlation,0.004745144005170565,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_precision,0.8666666666666667,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_recall,0.8666666666666667,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,SVG_jaccard,0.7647058823079584,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_global_real,0.1741989597125825,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_global_sim,0.1766083418704077,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_SVG_moran,moran_profile_cosine,0.9828239093198871,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_label,0.5079047942649512,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_NMI_real_vs_label,0.6509370512365306,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_clustering,cluster_ARI_real_vs_sim,0.732595875506887,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_JSD,0.00035979652573105744,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E2_ct_proportion,ct_proportion_RMSE,7.207269829674126e-05,computed
+MERFISH,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,Shape_mean_dice_score,0.9999955338167192,computed
+MERFISH,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,SVG_mean_dice_score,0.9828174483011964,computed
+MERFISH,Spapros,SRTsim-rb-tissue,BEASTsim_similarity_DSC,CT_mean_dice_score,0.9999833307448889,computed
+MERFISH,Spapros,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_lfc_correlation,0.9954260967471995,computed
+MERFISH,Spapros,SRTsim-rb-tissue,BEASTsim_biological_signal_DE,DE_top_marker_overlap,0.964705882352941,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,Balanced Realism,0.9686169612902173,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,Spatial Tissue Fidelity,0.9747485442350196,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,Novelty-Gated Plausibility,0.018356220972487215,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,Conservative Minimum Plausibility,0.9247452879932769,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,coverage_Q,1.0,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,novelty_gate,0.01895095967350846,computed
+MERFISH,Spapros,SRTsim-rb-tissue,biological_plausibility,copy_similarity,0.9990524520163245,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E3_scalability,compute_seconds,17.5,computed
+MERFISH,Spapros,SRTsim-rb-tissue,E3_scalability,peak_memory_gb,1.34,computed
